@@ -29,7 +29,8 @@ setup() {
 
   # Comment out the next line if you want to see where the temp files
   # are being created.
-  echo "Bats temp directory: $BATS_TMPDIR"
+
+  # echo "Bats temp directory: $BATS_TMPDIR"
 
   # This tells bats to preserve (i.e., not delete)
   # the temp files generated for failing tests. This might be 
