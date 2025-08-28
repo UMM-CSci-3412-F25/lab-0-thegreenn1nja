@@ -1,7 +1,11 @@
 #!/bin/bash
 
-tar -xvzf NthPrime.tgz
+ARG=$1
 
-cd ./NthPrime
+tar -xzf NthPrime.tgz
 
-gcc -o main.c
+cd NthPrime
+
+gcc -o NthPrime *.c
+
+./NthPrime $ARG
